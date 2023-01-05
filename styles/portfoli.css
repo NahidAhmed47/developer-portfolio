@@ -141,4 +141,26 @@ hr{
 }
 .btn-container{
     text-align: center;
+    margin-bottom: 50px;
+}
+
+/* contract styles */
+.contract{
+    display: flex;
+    gap: 100px;
+    padding: 130px 180px;
+    background: #FFF8F3;
+}
+.contract .section-title{
+    text-align: left;
+}
+.connect{
+    width: 50%;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: 0;
+    border-radius: 5px;
 }
