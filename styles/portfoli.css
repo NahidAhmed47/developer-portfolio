@@ -15,6 +15,9 @@
     border: 0;
     padding: 18px 35px;
 }
+.section{
+    margin-top: 130px;
+}
 /* Header and navigation styles */
 .header{
     background: #FFF8F3;
@@ -65,7 +68,6 @@ main{
     margin: 0 auto;
 }
 .about{
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -74,6 +76,7 @@ main{
 .section-title{
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 50px;
     font-weight: 700;
     font-size: 35px;
     line-height: 48px;
@@ -94,9 +97,7 @@ main{
 }
 
 /* What I do section styles */
-.what-i-do{
-    margin-top: 130px;
-}
+
 .skills-container{
     display: flex;
     justify-content: space-around;
@@ -115,4 +116,29 @@ main{
 .skill-description{
     font-size: 16px;
     color: #757575;
+}
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+}
+.resume-title{
+    margin-bottom: 30px;
+}
+.div-title{
+    margin-bottom: 10px;
+}
+.div-sub-title{
+    margin-bottom: 20px;
+}
+.div-description{
+    margin-bottom: 30px;
+    color:#757575
+}
+hr{
+    margin-bottom: 30px;
+}
+.btn-container{
+    text-align: center;
 }
